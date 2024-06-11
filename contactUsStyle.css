@@ -1,0 +1,185 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetting default margin, padding, and font-family */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling the body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Styling the main container */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #d1d1d1; /* Background color can be edited */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling the main item */
+.item {
+  width: 100%;
+  height: 550px;
+  max-width: 820px;
+  background: #fff; /* Background color can be edited */
+  border-radius: 20px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+  overflow: hidden;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  z-index: 1000;
+}
+
+/* Styling the contact section */
+.contact {
+  background: #ffffff; /* Background color can be edited */
+}
+
+/* Styling the submit form section */
+.submit-form {
+  background: red; /* Background color can be edited */
+}
+
+/* Styling the first text */
+.first-text {
+  color: #8f50ec; /* Text color can be edited */
+  padding-left: 20px; /* Left padding can be edited */
+  padding-top: 20px; /* Top padding can be edited */
+  font-size: 35px; /* Font size can be edited */
+  font-weight: 600; /* Font weight can be edited */
+}
+
+/* Styling the image */
+.image {
+  height: 300px; /* Height can be edited */
+  width: 400px; /* Width can be edited */
+}
+
+/* Styling the social media icons */
+.social-media {
+  display: flex;
+  list-style: none;
+}
+
+.social-media ul li {
+  padding-left: 15px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.social-media i {
+  background: #ffffff;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.social-media i:hover {
+  background: #fff;
+  color: #8f50ec;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+/* Styling the second text */
+.secnd-text {
+  font-weight: 500;
+  color: #8f50ec; /* Text color can be edited */
+  padding-left: 10px; /* Left padding can be edited */
+}
+
+/* Styling the third text */
+.third-text {
+  font-size: 25px; /* Font size can be edited */
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding-top: 10px;
+  color: #fff; /* Text color can be edited */
+}
+
+/* Styling the form */
+.form {
+  padding: 0 50px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Styling the input boxes */
+.input-box {
+  height: 40px; /* Height can be edited */
+  width: 70%; /* Width can be edited */
+  padding-left: 20px; /* Left padding can be edited */
+  margin: 30px 0;
+  position: relative;
+}
+
+/* Styling the input fields */
+.input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+  color: #fff; /* Text color can be edited */
+  font-size: 16px; /* Font size can be edited */
+}
+
+/* Styling the labels */
+.input-box label {
+  position: absolute;
+  top: 50%; /* Position can be adjusted */
+  left: 10px; /* Left position can be edited */
+  padding-left: 20px; /* Left padding can be edited */
+  transform: translateY(-50%);
+  font-weight: 500;
+  color: #fff; /* Text color can be edited */
+}
+.message-section {
+  margin-top: 30px; /* Add margin between this section and the previous one */
+}
+
+.message-section .input-box {
+  position: relative;
+}
+
+.message-section label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  padding-left: 20px;
+  transform: translateY(-50%);
+  font-weight: 500;
+  color: #fff;
+}
+
+.message-section textarea {
+  width: 100%;
+  height: 150px; /* Adjust the height as needed */
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 16px;
+  resize: none; /* Prevent resizing of the textarea */
+}
+
